@@ -16,6 +16,10 @@ int main()
 
 char uppercase(char alphabet)
 {
+	if(isupper(alphabet))
+	{
+		return alphabet;
+	}
 	alphabet -= 32;                //ASCII value of uppercase char A to Z ranges from 65 to 92
 
 	//For conversion we are subtracting 32 from the ASCII value of input letter.
