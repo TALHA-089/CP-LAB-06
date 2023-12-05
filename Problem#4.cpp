@@ -7,7 +7,6 @@ float TOTAL(float hours[]);
 
 int main()
 {
-	int Car_1, Car_2, Car_3;
 	float hours[3];
 	float Charges[3];
 	float total_hours = 0, total_charges = 0;
